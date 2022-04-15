@@ -2,7 +2,7 @@ import React from "react";
 
 const TopNavbar = () => {
   return (
-    <nav id="navbar" className="navbar">
+    <nav id="navbar" className="navbar" style={{marginBottom: '50px'}}>
       <ul>
         <li>
           <a className="nav-link inactive" href="/home">

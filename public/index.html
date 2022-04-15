@@ -102,10 +102,10 @@
     if (section) {
       e.preventDefault()
 
-      let navbar = select('#navbar')
-      let header = select('#header')
+      let navbar = select('/navbar')
+      let header = select('/header')
       let sections = select('section', true)
-      let navlinks = select('#navbar .nav-link', true)
+      let navlinks = select('navbar .nav-link', true)
 
       navlinks.forEach((item) => {
         item.classList.remove('active')

@@ -1,7 +1,6 @@
 import React from "react";
 
 const Navbar = () => {
-
   return  <nav id="navbar" className="navbar">
   <ul>
     <li><a className="nav-link active" href="/home">Home</a></li>

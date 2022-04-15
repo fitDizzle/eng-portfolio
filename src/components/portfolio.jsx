@@ -6,7 +6,7 @@ const Portfolio = () => {
       <div className="container">
         <div className="section-title">
           <h2>Portfolio</h2>
-          <p>My Works</p>
+          <p>My Work</p>
         </div>
 
         <div className="row">
@@ -15,9 +15,9 @@ const Portfolio = () => {
               <li data-filter="*" className="filter-active">
                 All
               </li>
-              <li data-filter=".filter-app">App</li>
-              <li data-filter=".filter-card">Card</li>
-              <li data-filter=".filter-web">Web</li>
+              <li data-filter=".filter-app">React</li>
+              <li data-filter=".filter-card">Python</li>
+              <li data-filter=".filter-web">MERN</li>
             </ul>
           </div>
         </div>
@@ -31,11 +31,11 @@ const Portfolio = () => {
                 alt=""
               />
               <div className="portfolio-info">
-                <h4>App 1</h4>
+                <h4>Scrababble</h4>
                 <p>App</p>
                 <div className="portfolio-links">
                   <a
-                    href="assets/img/portfolio/portfolio-1.jpg"
+                    href="/project1"
                     data-gallery="portfolioGallery"
                     className="portfolio-lightbox"
                     title="App 1"
@@ -59,16 +59,16 @@ const Portfolio = () => {
           <div className="col-lg-4 col-md-6 portfolio-item filter-web">
             <div className="portfolio-wrap">
               <img
-                src="assets/img/portfolio/portfolio-2.jpg"
+                src="assets/img/muscular-front.png"
                 className="img-fluid"
                 alt=""
               />
               <div className="portfolio-info">
-                <h4>Web 3</h4>
+                <h4>Muscular Anatomy Project</h4>
                 <p>Web</p>
                 <div className="portfolio-links">
                   <a
-                    href="assets/img/portfolio/portfolio-2.jpg"
+                    href="/project2"
                     data-gallery="portfolioGallery"
                     className="portfolio-lightbox"
                     title="Web 3"
@@ -76,13 +76,13 @@ const Portfolio = () => {
                     <i className="bx bx-plus"></i>
                   </a>
                   <a
-                    href="portfolio-details.html"
+                    href="https://muscular-anatomy-project.herokuapp.com/"
                     data-gallery="portfolioDetailsGallery"
                     data-glightbox="type: external"
                     className="portfolio-details-lightbox"
                     title="Portfolio Details"
                   >
-                    <i className="bx bx-link"></i>
+                    <i className="bx bx-link" href="https://muscular-anatomy-project.herokuapp.com/"></i>
                   </a>
                 </div>
               </div>
@@ -101,7 +101,7 @@ const Portfolio = () => {
                 <p>App</p>
                 <div className="portfolio-links">
                   <a
-                    href="assets/img/portfolio/portfolio-3.jpg"
+                    href="/project3"
                     data-gallery="portfolioGallery"
                     className="portfolio-lightbox"
                     title="App 2"
@@ -122,7 +122,7 @@ const Portfolio = () => {
             </div>
           </div>
 
-          <div className="col-lg-4 col-md-6 portfolio-item filter-card">
+          {/* <div className="col-lg-4 col-md-6 portfolio-item filter-card">
             <div className="portfolio-wrap">
               <img
                 src="assets/img/portfolio/portfolio-4.jpg"
@@ -134,7 +134,7 @@ const Portfolio = () => {
                 <p>Card</p>
                 <div className="portfolio-links">
                   <a
-                    href="assets/img/portfolio/portfolio-4.jpg"
+                    href="/project4"
                     data-gallery="portfolioGallery"
                     className="portfolio-lightbox"
                     title="Card 2"
@@ -153,9 +153,9 @@ const Portfolio = () => {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
 
-          <div className="col-lg-4 col-md-6 portfolio-item filter-web">
+          {/* <div className="col-lg-4 col-md-6 portfolio-item filter-web">
             <div className="portfolio-wrap">
               <img
                 src="assets/img/portfolio/portfolio-5.jpg"
@@ -219,8 +219,8 @@ const Portfolio = () => {
                 </div>
               </div>
             </div>
-          </div>
-
+          </div> */}
+{/* 
           <div className="col-lg-4 col-md-6 portfolio-item filter-card">
             <div className="portfolio-wrap">
               <img
@@ -315,10 +315,10 @@ const Portfolio = () => {
                   >
                     <i className="bx bx-link"></i>
                   </a>
-                </div>
-              </div>
-            </div>
-          </div>
+                </div> */}
+              {/* </div> */}
+            {/* </div> */}
+          {/* </div> */}
         </div>
       </div>
     </section>

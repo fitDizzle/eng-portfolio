@@ -14,6 +14,10 @@ import Portfolio from './components/portfolio';
 import Services from './components/services';
 import SocialMediaLinks from './components/navigation/socialMediaLinks';
 import TopNavbar from './components/navigation/topNavbar';
+import ProjectOne from './components/projects/projectOne';
+import ProjectTwo from './components/projects/projectTwo';
+import ProjectThree from './components/projects/projectThree';
+import ProjectFour from './components/projects/projectFour';
 
 function App() {
   let winloc = window.location.pathname.slice(1,) === "home";
@@ -43,6 +47,10 @@ function App() {
           <Route exact path="/resume" component={Resume} />
           <Route exact path="/portfolio" component={Portfolio} />
           <Route exact path="/services" component={Services} />
+          <Route exact path="/project1" component={ProjectOne} />
+          <Route exact path="/project2" component={ProjectTwo} />
+          <Route exact path="/project3" component={ProjectThree} />
+          <Route exact path="/project4" component={ProjectFour} />
           <Route render={() => <div><p>404 PAGE NOT FOUND</p></div>} />
         </Switch>
       </Router>
