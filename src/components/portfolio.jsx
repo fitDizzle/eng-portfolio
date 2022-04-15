@@ -26,7 +26,7 @@ const Portfolio = () => {
           <div className="col-lg-4 col-md-6 portfolio-item filter-app">
             <div className="portfolio-wrap">
               <img
-                src="assets/img/portfolio/portfolio-1.jpg"
+                src="assets/img/scrababble.png"
                 className="img-fluid"
                 alt=""
               />
@@ -43,7 +43,7 @@ const Portfolio = () => {
                     <i className="bx bx-plus"></i>
                   </a>
                   <a
-                    href="portfolio-details.html"
+                    href="https://scrababble-client.herokuapp.com/"
                     data-gallery="portfolioDetailsGallery"
                     data-glightbox="type: external"
                     className="portfolio-details-lightbox"
@@ -92,12 +92,12 @@ const Portfolio = () => {
           <div className="col-lg-4 col-md-6 portfolio-item filter-app">
             <div className="portfolio-wrap">
               <img
-                src="assets/img/portfolio/portfolio-3.jpg"
+                src="assets/img/bravada.png"
                 className="img-fluid"
                 alt=""
               />
               <div className="portfolio-info">
-                <h4>App 2</h4>
+                <h4>Bravada</h4>
                 <p>App</p>
                 <div className="portfolio-links">
                   <a
@@ -109,7 +109,7 @@ const Portfolio = () => {
                     <i className="bx bx-plus"></i>
                   </a>
                   <a
-                    href="portfolio-details.html"
+                    href="https://www.bravadayachts.com/"
                     data-gallery="portfolioDetailsGallery"
                     data-glightbox="type: external"
                     className="portfolio-details-lightbox"
