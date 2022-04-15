@@ -18,6 +18,7 @@ import ProjectOne from './components/projects/projectOne';
 import ProjectTwo from './components/projects/projectTwo';
 import ProjectThree from './components/projects/projectThree';
 import ProjectFour from './components/projects/projectFour';
+import Home from './components/home';
 
 function App() {
   let winloc = window.location.pathname.slice(1,) === "home";
@@ -28,7 +29,7 @@ function App() {
         {winloc ? <header id="header">
           <div className="container">
 
-            <h1><a href="index.html">Mark Clark</a></h1>
+            <h1><a href="/home">Mark Clark</a></h1>
 
             <h2>I am a <span>web developer</span> in Phoenix, Arizona</h2>
 
@@ -38,10 +39,10 @@ function App() {
         </header> : <TopNavbar />}
 
         <div className="credits">
-          Mark Clark <a href="https://bootstrapmade.com/">| Dragon Cats</a>
+          Mark Clark <a href="#a">| Dragon Cats</a>
         </div>
         <Switch>
-          <Redirect exact path="/" to="/home" />
+          <Redirect exact path="/" to="/home" component={Home} />
           <Route exact path="/about" component={About} />
           <Route exact path="/contact" component={Contacts} />
           <Route exact path="/resume" component={Resume} />
@@ -51,7 +52,7 @@ function App() {
           <Route exact path="/project2" component={ProjectTwo} />
           <Route exact path="/project3" component={ProjectThree} />
           <Route exact path="/project4" component={ProjectFour} />
-          <Route render={() => <div><p>404 PAGE NOT FOUND</p></div>} />
+          {/* <Route render={() => <div><p>404 PAGE NOT FOUND</p></div>} /> */}
         </Switch>
       </Router>
     </div>
