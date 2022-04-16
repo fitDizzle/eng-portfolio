@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useEffect }  from 'react';
 import {
   BrowserRouter as Router,
   Route,
@@ -21,12 +21,22 @@ import ProjectFour from './components/projects/projectFour';
 import Home from './components/home';
 
 function App() {
+  let [win, setWin] = useState("");
   let winloc = window.location.pathname.slice(1,) === "home";
+
+  useEffect(() => {
+    const loadNav = async () => {
+      let res = await window.location.pathname.slice(1,) === "home";
+      setWin(res);
+    };
+    loadNav();
+  }, []);
+
   return (
     <div className="App">
       <Router>
 
-        {winloc ? <header id="header">
+        {win ? <header id="header">
           <div className="container">
 
             <h1><a href="/home">Mark Clark</a></h1>
