@@ -52,19 +52,20 @@ const About = () => {
                     <i className="bi bi-chevron-right"></i>{" "}
                     <strong>Email:</strong> <span>mclark@mark-dev.com</span>
                   </li>
-                  <li>
+                  {/* <li>
                     <i className="bi bi-chevron-right"></i>{" "}
                     <strong>Freelance:</strong> <span>Available</span>
-                  </li>
+                  </li> */}
                 </ul>
               </div>
             </div>
             <p>
-              My preferred technologies are PERN (postgres, express, react,
-              node) and LAMP (linux, apache, mysql, python). I have over 2 years
-              of web applications development and development team leadership. I
-              have also been responsible for designing training corriculum for
-              development teams.
+              My preferred stacks are PERN and MERN. I have extensive knowledge
+              using React and have studied all other Javascript libraries and
+              frameworks. My current studies are SQL databases, Reactscript,
+              Python and Django and Java and Spring Boot. I find learning a new
+              language is fairly easy and am confident that I can adapt to
+              preffered design patterns quickly.
             </p>
           </div>
         </div>
@@ -74,40 +75,40 @@ const About = () => {
         <div className="row">
           <div className="col-lg-3 col-md-6">
             <div className="count-box">
-              <i className="bi bi-emoji-smile"></i>
+              <i className="bi bi-linkedin"></i>
               <span
                 data-purecounter-start="0"
                 data-purecounter-end="232"
                 data-purecounter-duration="1"
                 className="purecounter"
               ></span>
-              <p>Happy Clients</p>
+              <p>Linked'in</p>
             </div>
           </div>
 
           <div className="col-lg-3 col-md-6 mt-5 mt-md-0">
             <div className="count-box">
-              <i className="bi bi-journal-richtext"></i>
+              <i className="bi bi-github"></i>
               <span
                 data-purecounter-start="0"
                 data-purecounter-end="521"
                 data-purecounter-duration="1"
                 className="purecounter"
               ></span>
-              <p>Projects</p>
+              <p>Git Hub</p>
             </div>
           </div>
 
           <div className="col-lg-3 col-md-6 mt-5 mt-lg-0">
             <div className="count-box">
-              <i className="bi bi-headset"></i>
+              <i className="bi bi-facebook"></i>
               <span
                 data-purecounter-start="0"
                 data-purecounter-end="1463"
                 data-purecounter-duration="1"
                 className="purecounter"
               ></span>
-              <p>Hours Of Support</p>
+              <p>Facebook</p>
             </div>
           </div>
 
@@ -120,7 +121,7 @@ const About = () => {
                 data-purecounter-duration="1"
                 className="purecounter"
               ></span>
-              <p>Awards</p>
+              <p>Code Signal</p>
             </div>
           </div>
         </div>
@@ -301,36 +302,6 @@ const About = () => {
                 style={{ color: "#4233ff" }}
               ></i>
               <h3>Pira Neve</h3>
-            </div>
-          </div>
-          <div className="col-lg-3 col-md-4 mt-4">
-            <div className="icon-box">
-              <i className="ri-anchor-line" style={{ color: "#b2904f" }}></i>
-              <h3>Dirada Pack</h3>
-            </div>
-          </div>
-          <div className="col-lg-3 col-md-4 mt-4">
-            <div className="icon-box">
-              <i className="ri-disc-line" style={{ color: "#b20969" }}></i>
-              <h3>Moton Ideal</h3>
-            </div>
-          </div>
-          <div className="col-lg-3 col-md-4 mt-4">
-            <div className="icon-box">
-              <i
-                className="ri-base-station-line"
-                style={{ color: "#ff5828" }}
-              ></i>
-              <h3>Verdo Park</h3>
-            </div>
-          </div>
-          <div className="col-lg-3 col-md-4 mt-4">
-            <div className="icon-box">
-              <i
-                className="ri-fingerprint-line"
-                style={{ color: "#29cc61" }}
-              ></i>
-              <h3>Flavor Nivelanda</h3>
             </div>
           </div>
         </div>

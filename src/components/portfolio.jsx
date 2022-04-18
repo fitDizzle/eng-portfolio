@@ -15,15 +15,15 @@ const Portfolio = () => {
               <li data-filter="*" className="filter-active">
                 All
               </li>
-              <li data-filter=".filter-app">React</li>
-              <li data-filter=".filter-card">Python</li>
-              <li data-filter=".filter-web">MERN</li>
+              <li data-filter=".filter-js">Javascript</li>
+              <li data-filter=".filter-py">Python</li>
+              <li data-filter=".filter-cms">CMS (Web Design, CMS Systems)</li>
             </ul>
           </div>
         </div>
 
         <div className="row portfolio-container">
-          <div className="col-lg-4 col-md-6 portfolio-item filter-app">
+          <div className="col-lg-4 col-md-6 portfolio-item filter-js">
             <div className="portfolio-wrap">
               <img
                 src="assets/img/scrababble.png"
@@ -56,7 +56,7 @@ const Portfolio = () => {
             </div>
           </div>
 
-          <div className="col-lg-4 col-md-6 portfolio-item filter-web">
+          <div className="col-lg-4 col-md-6 portfolio-item filter-js">
             <div className="portfolio-wrap">
               <img
                 src="assets/img/anatomy-project.png"
@@ -89,7 +89,7 @@ const Portfolio = () => {
             </div>
           </div>
 
-          <div className="col-lg-4 col-md-6 portfolio-item filter-app">
+          <div className="col-lg-4 col-md-6 portfolio-item filter-cms">
             <div className="portfolio-wrap">
               <img
                 src="assets/img/bravada-project.png"

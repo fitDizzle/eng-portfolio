@@ -11,7 +11,7 @@ import Navbar from './components/navigation/navbar';
 import Contacts from './components/contacts';
 import Resume from './components/resume';
 import Portfolio from './components/portfolio';
-import Services from './components/services';
+import Skills from './components/skills';
 import SocialMediaLinks from './components/navigation/socialMediaLinks';
 import TopNavbar from './components/navigation/topNavbar';
 import ProjectOne from './components/projects/projectOne';
@@ -57,7 +57,7 @@ function App() {
           <Route exact path="/contact" component={Contacts} />
           <Route exact path="/resume" component={Resume} />
           <Route exact path="/portfolio" component={Portfolio} />
-          <Route exact path="/services" component={Services} />
+          <Route exact path="/skills" component={Skills} />
           <Route exact path="/project1" component={ProjectOne} />
           <Route exact path="/project2" component={ProjectTwo} />
           <Route exact path="/project3" component={ProjectThree} />

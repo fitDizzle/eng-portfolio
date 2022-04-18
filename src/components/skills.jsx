@@ -5,8 +5,8 @@ const Services = () => {
     <section id="services" className="services">
       <div className="container">
         <div className="section-title">
-          <h2>Services</h2>
-          <p>My Services</p>
+          <h2>Skills</h2>
+          <p>My Skills</p>
         </div>
 
         <div className="row">
@@ -76,7 +76,7 @@ const Services = () => {
                 <i className="bx bx-slideshow"></i>
               </div>
               <h4>
-                <a href="#a">Business Management Software</a>
+                <a href="#a">Full Stack Development</a>
               </h4>
               <p>
                 Quis consequatur saepe eligendi voluptatem consequatur dolor
