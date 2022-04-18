@@ -23,13 +23,13 @@ const Contacts = () => {
               <i className="bx bx-share-alt"></i>
               <h3>Social Profiles</h3>
               <div className="social-links">
-                <a href="#a" className="facebook">
+                <a href="https://www.facebook.com/profile.php?id=100074499750694" className="facebook">
                   <i className="bi bi-facebook"></i>
                 </a>
-                <a href="#a" className="instagram">
+                <a href="https://www.instagram.com/markfitnessaz/?hl=en" className="instagram">
                   <i className="bi bi-instagram"></i>
                 </a>
-                <a href="#a" className="linkedin">
+                <a href="https://www.linkedin.com/in/mark-clark-software-development/" className="linkedin">
                   <i className="bi bi-linkedin"></i>
                 </a>
               </div>
