@@ -127,7 +127,7 @@ const About = () => {
         </div>
       </div>
 
-      <div className="skills container">
+      {/* <div className="skills container">
         <div className="section-title">
           <h2>Skills</h2>
         </div>
@@ -421,7 +421,7 @@ const About = () => {
         </div>
 
         <div className="owl-carousel testimonials-carousel"></div>
-      </div>
+      </div> */}
     </section>
   );
 };
