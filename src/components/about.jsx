@@ -50,7 +50,7 @@ const About = () => {
                   {/* <li><i className="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>Master</span></li> */}
                   <li>
                     <i className="bi bi-chevron-right"></i>{" "}
-                    <strong>Email:</strong> <span>mclark@mark-dev.com</span>
+                    <strong>Email:</strong> <span>mark@idevforweb.com</span>
                   </li>
                   {/* <li>
                     <i className="bi bi-chevron-right"></i>{" "}
@@ -95,7 +95,7 @@ const About = () => {
                 data-purecounter-duration="1"
                 className="purecounter"
               ></span>
-              <p>Git Hub</p>
+              <a href="https://github.com/fitDizzle"  target="_blank" rel="noopener noreferrer">Git Hub</a>
             </div>
           </div>
 
@@ -108,7 +108,7 @@ const About = () => {
                 data-purecounter-duration="1"
                 className="purecounter"
               ></span>
-              <p>Facebook</p>
+              <a href="https://www.facebook.com/profile.php?id=100074499750694"  target="_blank" rel="noopener noreferrer">Facebook</a>
             </div>
           </div>
 
@@ -121,7 +121,7 @@ const About = () => {
                 data-purecounter-duration="1"
                 className="purecounter"
               ></span>
-              <p>Code Signal</p>
+              <a href="https://app.codesignal.com/profile/fitdizzle"  target="_blank" rel="noopener noreferrer">Code Signal</a>
             </div>
           </div>
         </div>
