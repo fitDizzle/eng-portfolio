@@ -48,6 +48,7 @@ const Portfolio = () => {
                     data-glightbox="type: external"
                     className="portfolio-details-lightbox"
                     title="Portfolio Details"
+                    target="_blank" rel="noopener noreferrer"
                   >
                     <i className="bx bx-link"></i>
                   </a>
@@ -81,8 +82,9 @@ const Portfolio = () => {
                     data-glightbox="type: external"
                     className="portfolio-details-lightbox"
                     title="Portfolio Details"
+                    target="_blank" rel="noopener noreferrer"
                   >
-                    <i className="bx bx-link" href="https://muscular-anatomy-project.herokuapp.com/"></i>
+                    <i className="bx bx-link" ></i>
                   </a>
                 </div>
               </div>
@@ -114,6 +116,7 @@ const Portfolio = () => {
                     data-glightbox="type: external"
                     className="portfolio-details-lightbox"
                     title="Portfolio Details"
+                    target="_blank" rel="noopener noreferrer"
                   >
                     <i className="bx bx-link"></i>
                   </a>
