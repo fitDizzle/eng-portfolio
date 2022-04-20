@@ -35,7 +35,8 @@ const Portfolio = () => {
                 <p>App</p>
                 <div className="portfolio-links">
                   <a
-                    href="/project1"
+                    href="/"
+                    // href="/project1"
                     data-gallery="portfolioGallery"
                     className="portfolio-lightbox"
                     title="App 1"
@@ -69,7 +70,8 @@ const Portfolio = () => {
                 <p>Web</p>
                 <div className="portfolio-links">
                   <a
-                    href="/project2"
+                    href="/"
+                    // href="/project2"
                     data-gallery="portfolioGallery"
                     className="portfolio-lightbox"
                     title="Web 3"
@@ -103,7 +105,8 @@ const Portfolio = () => {
                 <p>App</p>
                 <div className="portfolio-links">
                   <a
-                    href="/project3"
+                    href="/"
+                    // href="/project3"
                     data-gallery="portfolioGallery"
                     className="portfolio-lightbox"
                     title="App 2"
