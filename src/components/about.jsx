@@ -29,7 +29,7 @@ const About = () => {
                   </li>
                   <li>
                     <i className="bi bi-chevron-right"></i>{" "}
-                    <strong>Website:</strong> <span>www.mark-dev.com</span>
+                    <strong>Website:</strong> <span><www className="idevforweb"></www>.com</span>
                   </li>
                   <li>
                     <i className="bi bi-chevron-right"></i>{" "}
