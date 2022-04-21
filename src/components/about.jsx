@@ -82,7 +82,8 @@ const About = () => {
                 data-purecounter-duration="1"
                 className="purecounter"
               ></span>
-              <p>Linked'in</p>
+              <a href="https://www.linkedin.com/in/mark-clark-software-development/"
+              target="_blank" rel="noopener noreferrer">Linked'in</a>
             </div>
           </div>
 
