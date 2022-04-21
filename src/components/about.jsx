@@ -11,7 +11,7 @@ const About = () => {
 
         <div className="row">
           <div className="col-lg-4" data-aos="fade-right">
-            <img src="assets/img/IMG-3226.jpg" className="img-fluid" alt="" />
+            <img src="assets/img/clark-headshot.jpg" className="img-fluid" alt="" />
           </div>
           <div className="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
             <h3>Biz Dev &amp; Web Developer</h3>
@@ -29,7 +29,7 @@ const About = () => {
                   </li>
                   <li>
                     <i className="bi bi-chevron-right"></i>{" "}
-                    <strong>Website:</strong> <span><www className="idevforweb"></www>.com</span>
+                    <strong>Website:</strong> <span>www.idevforweb.com</span>
                   </li>
                   <li>
                     <i className="bi bi-chevron-right"></i>{" "}
