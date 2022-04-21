@@ -6,7 +6,6 @@ const Resume = () => {
       <div className="container">
         <div className="section-title">
           <h2>Resume</h2>
-          <p>Technology Related Resume</p>
         </div>
 
         <div className="row">
