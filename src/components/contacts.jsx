@@ -53,7 +53,7 @@ const Contacts = () => {
         </div>
 
         <form
-          action="../../public/forms/contact.php"
+          action="../forms/contact.php"
           method="post"
           className="php-email-form mt-4"
         >
