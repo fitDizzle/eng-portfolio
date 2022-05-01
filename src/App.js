@@ -22,7 +22,6 @@ import Home from './components/home';
 
 function App() {
   let [win, setWin] = useState("");
-  let winloc = window.location.pathname.slice(1,) === "home";
 
   useEffect(() => {
     const loadNav = async () => {

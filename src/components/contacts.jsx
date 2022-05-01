@@ -53,8 +53,8 @@ const Contacts = () => {
         </div>
 
         <form
-          action="../forms/contact.php"
-          method="post"
+          action={"../forms/contact.php"}
+          method={"post"}
           className="php-email-form mt-4"
         >
           <div className="row">
@@ -110,6 +110,7 @@ const Contacts = () => {
           </div>
         </form>
       </div>
+      <script src="../../public/assets/vendor/php-email-form/validate.js"></script>
     </section>
   );
 };
