@@ -11,14 +11,19 @@ const About = () => {
 
         <div className="row">
           <div className="col-lg-4" data-aos="fade-right">
-            <img src="assets/img/clark-headshot.jpg" className="img-fluid" alt="" />
+            <img
+              src="assets/img/clark-headshot.jpg"
+              className="img-fluid"
+              alt=""
+            />
           </div>
           <div className="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
             <h3>Biz Dev &amp; Web Developer</h3>
             <p className="fst-italic">
-              I am a committed and hard working Professional in the Technology
-              Industry. I specialize in operations, growth and business
-              relations.
+              My name is Mark and I am a web developer and software engineer. I
+              Specialize in MERN with additional knoweldge with many other
+              languages, libraries and frameworks. This includes Postgres,
+              MariaDB, Python, Java and several more.
             </p>
             <div className="row">
               <div className="col-lg-6">
@@ -60,9 +65,7 @@ const About = () => {
               </div>
             </div>
             <p>
-              My preferred stacks are PERN and MERN. I have extensive knowledge
-              using React and have studied all other Javascript libraries and
-              frameworks. My current studies are SQL databases, Reactscript,
+              My current studies are SQL databases, Reactscript,
               Python and Django and Java and Spring Boot. I find learning a new
               language is fairly easy and am confident that I can adapt to
               preffered design patterns quickly.
@@ -82,8 +85,13 @@ const About = () => {
                 data-purecounter-duration="1"
                 className="purecounter"
               ></span>
-              <a href="https://www.linkedin.com/in/mark-clark-software-development/"
-              target="_blank" rel="noopener noreferrer">Linked'in</a>
+              <a
+                href="https://www.linkedin.com/in/mark-clark-software-development/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Linked'in
+              </a>
             </div>
           </div>
 
@@ -96,7 +104,13 @@ const About = () => {
                 data-purecounter-duration="1"
                 className="purecounter"
               ></span>
-              <a href="https://github.com/fitDizzle"  target="_blank" rel="noopener noreferrer">Git Hub</a>
+              <a
+                href="https://github.com/fitDizzle"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Git Hub
+              </a>
             </div>
           </div>
 
@@ -109,7 +123,13 @@ const About = () => {
                 data-purecounter-duration="1"
                 className="purecounter"
               ></span>
-              <a href="https://www.facebook.com/profile.php?id=100074499750694"  target="_blank" rel="noopener noreferrer">Facebook</a>
+              <a
+                href="https://www.facebook.com/profile.php?id=100074499750694"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Facebook
+              </a>
             </div>
           </div>
 
@@ -122,7 +142,13 @@ const About = () => {
                 data-purecounter-duration="1"
                 className="purecounter"
               ></span>
-              <a href="https://app.codesignal.com/profile/fitdizzle"  target="_blank" rel="noopener noreferrer">Code Signal</a>
+              <a
+                href="https://app.codesignal.com/profile/fitdizzle"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Code Signal
+              </a>
             </div>
           </div>
         </div>
