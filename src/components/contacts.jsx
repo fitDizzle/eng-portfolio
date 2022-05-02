@@ -1,6 +1,29 @@
-import React from "react";
+import React, { useState } from "react";
 
 const Contacts = () => {
+  let [email, SetEmail] = useState("");
+  let [name, SetName] = useState("");
+  let [subject, SetSubject] = useState("");
+  let [message, SetMessage] = useState("");
+
+  const formData = {
+    email,
+    name,
+    subject,
+    message,
+  };
+
+  const onHandleChange = (e) => {
+    console.log(e.target.name, e.target.value);
+    [e.target.name] = e.target.value;
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+
+
+  };
+
   return (
     <section id="contact" className="contact">
       <div className="container">
@@ -23,13 +46,22 @@ const Contacts = () => {
               <i className="bx bx-share-alt"></i>
               <h3>Social Profiles</h3>
               <div className="social-links">
-                <a href="https://www.facebook.com/profile.php?id=100074499750694" className="facebook">
+                <a
+                  href="https://www.facebook.com/profile.php?id=100074499750694"
+                  className="facebook"
+                >
                   <i className="bi bi-facebook"></i>
                 </a>
-                <a href="https://www.instagram.com/markfitnessaz/?hl=en" className="instagram">
+                <a
+                  href="https://www.instagram.com/markfitnessaz/?hl=en"
+                  className="instagram"
+                >
                   <i className="bi bi-instagram"></i>
                 </a>
-                <a href="https://www.linkedin.com/in/mark-clark-software-development/" className="linkedin">
+                <a
+                  href="https://www.linkedin.com/in/mark-clark-software-development/"
+                  className="linkedin"
+                >
                   <i className="bi bi-linkedin"></i>
                 </a>
               </div>
@@ -65,6 +97,7 @@ const Contacts = () => {
                 className="form-control"
                 id="name"
                 placeholder="Your Name"
+                onChange={(e) => onHandleChange(e)}
                 required
               />
             </div>
@@ -75,6 +108,7 @@ const Contacts = () => {
                 name="email"
                 id="email"
                 placeholder="Your Email"
+                onChange={(e) => onHandleChange(e)}
                 required
               />
             </div>
@@ -86,6 +120,7 @@ const Contacts = () => {
               name="subject"
               id="subject"
               placeholder="Subject"
+              onChange={(e) => onHandleChange(e)}
               required
             />
           </div>
@@ -95,6 +130,7 @@ const Contacts = () => {
               name="message"
               rows="5"
               placeholder="Message"
+              onChange={(e) => onHandleChange(e)}
               required
             ></textarea>
           </div>
@@ -106,7 +142,9 @@ const Contacts = () => {
             </div>
           </div>
           <div className="text-center">
-            <button type="submit">Send Message</button>
+            <button type="submit" onSubmit={(e) => handleSubmit(e, formData)}>
+              Send Message
+            </button>
           </div>
         </form>
       </div>

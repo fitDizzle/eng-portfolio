@@ -5,13 +5,13 @@
 */
 window.addEventListener('load', () => {
   let forms = document.querySelectorAll('.php-email-form');
-
   forms.forEach( function(e) {
+    console.log(e, 'fsdfdsfs')
     e.addEventListener('submit', function(event) {
-      console.log(e, 'TEST ON SUBMIT')
+
       event.preventDefault();
       let thisForm = this;
-
+      console.log(thisForm, 'FORMS')
       let action = thisForm.getAttribute('action');
       let recaptcha = thisForm.getAttribute('data-recaptcha-site-key');
       
@@ -47,14 +47,15 @@ window.addEventListener('load', () => {
     });
   });
 
-  function php_email_form_submit(thisForm, action, formData) {
-    console.log(thisForm, action, formData);
-    fetch(action, {
+  async function php_email_form_submit(thisForm, action, formData) {
+
+    await fetch(action, {
       method: 'POST',
       body: formData,
       headers: {'X-Requested-With': 'XMLHttpRequest'}
     })
     .then(response => {
+      console.log(response, 'RESPONSE');
       if( response.ok ) {
         return response.text()
       } else {
