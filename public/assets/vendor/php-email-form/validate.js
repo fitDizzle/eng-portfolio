@@ -3,11 +3,12 @@
 * URL: https://bootstrapmade.com/php-email-form/
 * Author: BootstrapMade.com
 */
-(function () {
+window.addEventListener('load', () => {
   let forms = document.querySelectorAll('.php-email-form');
 
   forms.forEach( function(e) {
     e.addEventListener('submit', function(event) {
+      console.log(e, 'TEST ON SUBMIT')
       event.preventDefault();
       let thisForm = this;
 
@@ -80,4 +81,4 @@
     thisForm.querySelector('.error-message').classList.add('d-block');
   }
 
-})();
+});
