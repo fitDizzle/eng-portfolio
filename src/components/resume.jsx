@@ -24,12 +24,25 @@ const Resume = () => {
                 <ul>
                   <li>Phoenix, Arizona</li>
                   <li>(480) 579-8865</li>
-                  <li>markfitnessaz@gmail.com</li>
+                  <li>mark@idevforweb.com</li>
                 </ul>
               </p>
             </div>
 
             <h3 className="resume-title">Education</h3>
+            <div className="resume-item">
+              <h4>Code Signal GCA (General Coding Assessment)</h4>
+              <h5>May 5, 2022</h5>
+              <p>
+                <em>Verified and Proctored Assessment Completion</em>
+              </p>
+              <a
+                href="https://app.codesignal.com/coding-report/8cjFvNQTc9sZkKRsh-SoShj3WFa2Nh69cmWfH5aHF8/TDEDJogpiyAT42XKC"
+                alt="code-signal-assessment-link"
+              >
+                Code Signal Assessment
+              </a>
+            </div>
             <div className="resume-item">
               <h4>Hack Reactor TAA (Technical Admissions Assessment)</h4>
               <h5>April 2022</h5>
