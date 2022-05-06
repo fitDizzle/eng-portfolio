@@ -39,9 +39,15 @@ const Resume = () => {
               <a
                 href="https://app.codesignal.com/coding-report/8cjFvNQTc9sZkKRsh-SoShj3WFa2Nh69cmWfH5aHF8/TDEDJogpiyAT42XKC"
                 alt="code-signal-assessment-link"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 Code Signal Assessment
               </a>
+              <p>
+                Successfully completed the Code Signal General Coding Assessment
+                with a score of 727 and ranked level 6.
+              </p>
             </div>
             <div className="resume-item">
               <h4>Hack Reactor TAA (Technical Admissions Assessment)</h4>
