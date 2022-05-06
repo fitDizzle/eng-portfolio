@@ -47,7 +47,7 @@ const Resume = () => {
               <h4>Hack Reactor TAA (Technical Admissions Assessment)</h4>
               <h5>April 2022</h5>
               <p>
-                <em>Certificate of Completion</em>
+                <em>Certificate of Completion (Score 727 / 1200)</em>
               </p>
               <p>
                 Successfully completed all non-technical and technical
