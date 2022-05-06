@@ -42,7 +42,7 @@ const Resume = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Code Signal Assessment
+                View My Code Signal Assessment
               </a>
               <p>
                 Successfully completed the Code Signal General Coding Assessment
@@ -53,7 +53,7 @@ const Resume = () => {
               <h4>Hack Reactor TAA (Technical Admissions Assessment)</h4>
               <h5>April 2022</h5>
               <p>
-                <em>Certificate of Completion (Score 727 / 1200)</em>
+                <em>Certificate of Completion</em>
               </p>
               <p>
                 Successfully completed all non-technical and technical
