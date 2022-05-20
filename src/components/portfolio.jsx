@@ -128,6 +128,41 @@ const Portfolio = () => {
             </div>
           </div>
 
+          <div className="col-lg-4 col-md-6 portfolio-item filter-py">
+            <div className="portfolio-wrap">
+              <img
+                src="assets/img/lexus_logo.png"
+                className="img-fluid"
+                alt=""
+              />
+              <div className="portfolio-info">
+                <h4>Lexus Feedback (Python, Postgres)</h4>
+                <p>App</p>
+                <div className="portfolio-links">
+                  <a
+                    href="/"
+                    // href="/project3"
+                    data-gallery="portfolioGallery"
+                    className="portfolio-lightbox"
+                    title="App 3"
+                  >
+                    <i className="bx bx-plus"></i>
+                  </a>
+                  <a
+                    href="https://lexus-messages.herokuapp.com/"
+                    data-gallery="portfolioDetailsGallery"
+                    data-glightbox="type: external"
+                    className="portfolio-details-lightbox"
+                    title="Portfolio Details"
+                    target="_blank" rel="noopener noreferrer"
+                  >
+                    <i className="bx bx-link"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
           {/* <div className="col-lg-4 col-md-6 portfolio-item filter-card">
             <div className="portfolio-wrap">
               <img
