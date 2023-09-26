@@ -10,7 +10,7 @@ const Navbar = () => {
     <li><a className="nav-link" href="/portfolio">Projects</a></li>
     <li><a className="nav-link" href="/contact">Contact</a></li>
   </ul>
-  <i className="bi bi-list mobile-nav-toggle">X</i>
+  <i className="bi bi-list mobile-nav-toggle"></i>
 </nav>
 };
 
