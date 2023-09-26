@@ -20,8 +20,6 @@ const Contacts = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-
-
   };
 
   return (
@@ -37,7 +35,7 @@ const Contacts = () => {
             <div className="info-box">
               <i className="bx bx-map"></i>
               <h3>My Remote Location</h3>
-              <p>Scottsdale, Arizona</p>
+              <p>Phoenix, Arizona</p>
             </div>
           </div>
 
@@ -46,23 +44,22 @@ const Contacts = () => {
               <i className="bx bx-share-alt"></i>
               <h3>Social Profiles</h3>
               <div className="social-links">
-                <a
-                  href="https://www.facebook.com/profile.php?id=100074499750694"
-                  className="facebook"
-                >
-                  <i className="bi bi-facebook"></i>
+                <a href="https://github.com/fitDizzle" className="github">
+                  <i className="bi bi-github"></i>
                 </a>
-                <a
-                  href="https://www.instagram.com/markfitnessaz/?hl=en"
-                  className="instagram"
-                >
-                  <i className="bi bi-instagram"></i>
-                </a>
+
                 <a
                   href="https://www.linkedin.com/in/mark-clark-software-development/"
                   className="linkedin"
                 >
                   <i className="bi bi-linkedin"></i>
+                </a>
+
+                <a
+                  href="https://www.instagram.com/markfitnessaz/?hl=en"
+                  className="instagram"
+                >
+                  <i className="bi bi-instagram"></i>
                 </a>
               </div>
             </div>

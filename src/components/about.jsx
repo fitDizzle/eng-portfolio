@@ -18,57 +18,83 @@ const About = () => {
             />
           </div>
           <div className="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
-            <h3>Biz Dev &amp; Web Developer</h3>
+            <h3>Software Engineer</h3>
             <p className="fst-italic">
-              My name is Mark and I am a web developer and software engineer. I
-              Specialize in MERN with additional knoweldge with many other
-              languages, libraries and frameworks. This includes Postgres,
-              MariaDB, Python, Java and several more.
+              Software engineer by profession, creative problem solver by
+              nature. I don't just code; I craft digital experiences that leave
+              a lasting impact. With a fascination for technology's potential
+              and a love for elegant solutions, I thrive on challenges that push
+              me to innovate beyond the ordinary. I'm not your typical engineer;
+              I'm a tech enthusiast who believes that software can change the
+              world as it has changed my own.
             </p>
+            <p>
+              From designing user-friendly interfaces that make life easier to
+              architecting scalable systems that power businesses, I bring
+              passion and purpose to every project. Beyond the lines of code,
+              you'll find a lifelong learner who embraces the ever-evolving tech
+              landscape.
+            </p>
+            <p>
+              I'm not just about problem-solving; I'm about people too. I'm a
+              collaborator who values teamwork, diversity, and the opportunity
+              to connect with others on this exciting journey of digital
+              transformation.
+            </p>
+            <p>
+              Looking for more than a programmer? Let's create something
+              extraordinary together.
+            </p>
+            <br />
             <div className="row">
               <div className="col-lg-6">
                 <ul>
-                  <li>
+                  {/* <li>
                     <i className="bi bi-chevron-right"></i>{" "}
                     <strong>Birthday:</strong> <span>17 September 1987</span>
-                  </li>
-                  <li>
-                    <i className="bi bi-chevron-right"></i>{" "}
-                    <strong>Website:</strong> <span>www.idevforweb.com</span>
-                  </li>
+                  </li> */}
                   <li>
                     <i className="bi bi-chevron-right"></i>{" "}
                     <strong>Phone:</strong> <span>+480 579 8865</span>
                   </li>
+
                   <li>
                     <i className="bi bi-chevron-right"></i>{" "}
-                    <strong>City:</strong> <span>Arizona, USA</span>
+                    <strong>Email:</strong> <span>mark@idevforweb.com</span>
+                  </li>
+
+                  <li>
+                    <i className="bi bi-chevron-right"></i>{" "}
+                    <strong>Website:</strong> <span>www.idevforweb.com</span>
                   </li>
                 </ul>
               </div>
               <div className="col-lg-6">
                 <ul>
-                  <li>
+                  {/* <li>
                     <i className="bi bi-chevron-right"></i>{" "}
                     <strong>Age:</strong> <span>34</span>
-                  </li>
+                  </li> */}
                   {/* <li><i className="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>Master</span></li> */}
-                  <li>
-                    <i className="bi bi-chevron-right"></i>{" "}
-                    <strong>Email:</strong> <span>mark@idevforweb.com</span>
-                  </li>
                   {/* <li>
                     <i className="bi bi-chevron-right"></i>{" "}
                     <strong>Freelance:</strong> <span>Available</span>
                   </li> */}
+                  <li>
+                    <i className="bi bi-chevron-right"></i>{" "}
+                    <strong>Hack Reactor Alumni</strong>
+                  </li>
+                  <li>
+                    <i className="bi bi-chevron-right"></i>{" "}
+                    <strong>Currently living in:</strong>{" "}
+                    <span>Phoenix, Arizona</span>
+                  </li>
                 </ul>
               </div>
             </div>
             <p>
-              My current studies are SQL databases, Reactscript,
-              Python and Django and Java and Spring Boot. I find learning a new
-              language is fairly easy and am confident that I can adapt to
-              preffered design patterns quickly.
+              Current studies in DevOps with an emphasis on Kubernetes, Jenkins,
+              Docker and Nginx.
             </p>
           </div>
         </div>
@@ -116,7 +142,7 @@ const About = () => {
 
           <div className="col-lg-3 col-md-6 mt-5 mt-lg-0">
             <div className="count-box">
-              <i className="bi bi-facebook"></i>
+              <i className="bi bi-instagram"></i>
               <span
                 data-purecounter-start="0"
                 data-purecounter-end="1463"
@@ -124,11 +150,11 @@ const About = () => {
                 className="purecounter"
               ></span>
               <a
-                href="https://www.facebook.com/profile.php?id=100074499750694"
+                href="https://www.instagram.com/markfitnessaz/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Facebook
+                Instagram
               </a>
             </div>
           </div>

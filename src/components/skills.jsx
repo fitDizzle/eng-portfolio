@@ -6,7 +6,7 @@ const Services = () => {
       <div className="container">
         <div className="section-title">
           <h2>Skills</h2>
-          <p>My Skills</p>
+          <h2>Languages, Libraries and Frameworks</h2>
         </div>
 
         <div className="row">
@@ -16,11 +16,11 @@ const Services = () => {
                 <i className="bx bxl-dribbble"></i>
               </div>
               <h4>
-                <a href="#a">Web Design</a>
+                <a href="#a">Ruby</a>
               </h4>
               <p>
-                Voluptatum deleniti atque corrupti quos dolores et quas
-                molestias excepturi
+                <strong>Libraries and Frameworks: </strong>Ruby on Rails, Rails
+                Graphql, Devise, SideKiq
               </p>
             </div>
           </div>
@@ -31,11 +31,12 @@ const Services = () => {
                 <i className="bx bx-file"></i>
               </div>
               <h4>
-                <a href="#a">Graphic Design</a>
+                <a href="#a">Javascript</a>
               </h4>
               <p>
-                Duis aute irure dolor in reprehenderit in voluptate velit esse
-                cillum dolore
+                <strong>Libraries and Frameworks: </strong>
+                Node, Express, React, Redux, Context, Cron, Sequelize, Styled
+                components, Axios
               </p>
             </div>
           </div>
@@ -46,41 +47,11 @@ const Services = () => {
                 <i className="bx bx-tachometer"></i>
               </div>
               <h4>
-                <a href="#a">Mobile Applications</a>
+                <a href="#a">Python</a>
               </h4>
               <p>
-                Excepteur sint occaecat cupidatat non proident, sunt in culpa
-                qui officia
-              </p>
-            </div>
-          </div>
-
-          <div className="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
-            <div className="icon-box">
-              <div className="icon">
-                <i className="bx bx-world"></i>
-              </div>
-              <h4>
-                <a href="#a">Web Applications</a>
-              </h4>
-              <p>
-                At vero eos et accusamus et iusto odio dignissimos ducimus qui
-                blanditiis
-              </p>
-            </div>
-          </div>
-
-          <div className="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
-            <div className="icon-box">
-              <div className="icon">
-                <i className="bx bx-slideshow"></i>
-              </div>
-              <h4>
-                <a href="#a">Full Stack Development</a>
-              </h4>
-              <p>
-                Quis consequatur saepe eligendi voluptatem consequatur dolor
-                consequuntur
+                <strong>Libraries and Frameworks: </strong>Flask, Django,
+                Scrapy, Selenium, Plotly, Matplotlib
               </p>
             </div>
           </div>
@@ -91,11 +62,41 @@ const Services = () => {
                 <i className="bx bx-arch"></i>
               </div>
               <h4>
-                <a href="#a">CMS and Wordpress</a>
+                <a href="#a">Typescript</a>
               </h4>
               <p>
-                Modi nostrum vel laborum. Porro fugit error sit minus sapiente
-                sit aspernatur
+                <strong>Libraries and Frameworks: </strong>React-Typescript,
+                Graphql, Codegen, Axios
+              </p>
+            </div>
+          </div>
+
+          <div className="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
+            <div className="icon-box">
+              <div className="icon">
+                <i className="bx bx-arch"></i>
+              </div>
+              <h4>
+                <a href="#a">GraphQL (Rails & Javascript)</a>
+              </h4>
+              <p>
+                <strong>Libraries and Frameworks: </strong>Rails Graphql,
+                Codegen, Apollo, Federated Graphql
+              </p>
+            </div>
+          </div>
+
+          <div className="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
+            <div className="icon-box">
+              <div className="icon">
+                <i className="bx bx-arch"></i>
+              </div>
+              <h4>
+                <a href="#a">SQL</a>
+              </h4>
+              <p>
+                <strong>Libraries and Frameworks: </strong>Postgres, MariaDB,
+                MySQL
               </p>
             </div>
           </div>

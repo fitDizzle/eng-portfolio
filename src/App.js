@@ -1,4 +1,4 @@
-import React, { useState, useEffect }  from 'react';
+import React, { useState, useEffect } from 'react';
 import {
   BrowserRouter as Router,
   Route,
@@ -40,7 +40,8 @@ function App() {
 
             <h1><a href="/home">Mark Clark</a></h1>
 
-            <h2>I am a <span>web developer</span> in Phoenix, Arizona</h2>
+            {/* <h2>I am a <span>Software Engineer</span> in Phoenix, Arizona</h2> */}
+            <h2><span>Software engineer</span> by profession, creative problem solver by nature.</h2>
 
             <Navbar />
             <SocialMediaLinks />

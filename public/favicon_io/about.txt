@@ -1,0 +1,6 @@
+This favicon was generated using the following font:
+
+- Font Title: Sofia Sans Extra Condensed
+- Font Author: Copyright 2019 The Sofia Sans Project Authors (https://github.com/lettersoup/Sofia-Sans)
+- Font Source: http://fonts.gstatic.com/s/sofiasansextracondensed/v2/raxfHjafvdAIOju4GcIfJH0i7zi50X3zRtuLNiMS0fSrPEBUZv84WtaeUivFOzOI_ZuWxFXe.ttf
+- Font License: SIL Open Font License, 1.1 (http://scripts.sil.org/OFL))
