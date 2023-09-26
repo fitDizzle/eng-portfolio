@@ -60,7 +60,7 @@ const Resume = () => {
             </div>
             <div className="resume-item">
               <h4>Gusto Software Engineering Apprenticeship</h4>
-              <h5>1/17/2023 - 12/28/2024</h5>
+              <h5>1/17/2023 - 12/28/2023</h5>
               <p>
                 <em>Gusto - San Francisco, CA</em>
               </p>
