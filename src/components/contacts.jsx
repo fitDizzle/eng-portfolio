@@ -163,7 +163,7 @@ const Contacts = () => {
             </div>
           </div>
           <div className="text-center">
-            <button onClick={(e) => handleSubmit(e, formData)}>
+            <button className="contact" type="submit" onClick={(e) => handleSubmit(e, formData)}>
               Send Message
             </button>
           </div>
