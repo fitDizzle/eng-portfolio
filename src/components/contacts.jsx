@@ -11,6 +11,7 @@ const Contacts = () => {
   });
 
   const [loading, setLoading] = useState(false);
+  const [error, setError] = useState({});
 
   const formData = {
     email: formState.email,
@@ -25,14 +26,10 @@ const Contacts = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    console.log('hello')
 
     setLoading(true);
 
-    const response = await handleContactMessageDelivery(formData);
-    if (response) {
-      console.log(response);
-    }
+    await handleContactMessageDelivery(formData);
 
     setTimeout(() => {
       setLoading(false);

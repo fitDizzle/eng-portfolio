@@ -24,7 +24,7 @@
   },
   "scripts": {
     "build": "react-scripts build",
-    "start": "concurrently \"yarn run start-backend\" \"yarn run start-frontend\"",
+    "start": "react-scripts start",
     "start-backend": "node server/server.js",
     "start-frontend": "react-scripts start",
     "test": "react-scripts test",
