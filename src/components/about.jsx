@@ -20,13 +20,13 @@ const About = () => {
           <div className="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
             <h3>Software Engineer</h3>
             <p className="fst-italic">
-              Software engineer by profession, creative problem solver by
-              nature. I don't just code; I craft digital experiences that leave
-              a lasting impact. With a fascination for technology's potential
-              and a love for elegant solutions, I thrive on challenges that push
-              me to innovate beyond the ordinary. I'm not your typical engineer;
-              I'm a tech enthusiast who believes that software can change the
-              world as it has changed my own.
+              by profession, creative problem solver by nature. I don't just
+              code; I craft digital experiences that leave a lasting impact.
+              With a fascination for technology's potential and a love for
+              elegant solutions, I thrive on challenges that push me to innovate
+              beyond the ordinary. I'm not your typical engineer; I'm a tech
+              enthusiast who believes that software can change the world as it
+              has changed my own.
             </p>
             <p>
               From designing user-friendly interfaces that make life easier to

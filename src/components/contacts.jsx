@@ -1,25 +1,42 @@
 import React, { useState } from "react";
+import { handleContactMessageDelivery } from "../api";
 
 const Contacts = () => {
-  let [email, SetEmail] = useState("");
-  let [name, SetName] = useState("");
-  let [subject, SetSubject] = useState("");
-  let [message, SetMessage] = useState("");
+  const [formState, setFormState] = useState({
+    name: "",
+    phone: "",
+    email: "",
+    subject: "",
+    message: "",
+  });
+
+  const [loading, setLoading] = useState(false);
 
   const formData = {
-    email,
-    name,
-    subject,
-    message,
+    email: formState.email,
+    name: formState.name,
+    subject: formState.subject,
+    message: formState.message,
   };
 
   const onHandleChange = (e) => {
-    console.log(e.target.name, e.target.value);
-    [e.target.name] = e.target.value;
+    setFormState({ ...formState, [e.target.name]: e.target.value });
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
+    console.log('hello')
+
+    setLoading(true);
+
+    const response = await handleContactMessageDelivery(formData);
+    if (response) {
+      console.log(response);
+    }
+
+    setTimeout(() => {
+      setLoading(false);
+    }, 1000);
   };
 
   return (
@@ -81,29 +98,39 @@ const Contacts = () => {
           </div>
         </div>
 
-        <form
-          action="../forms/contact.php"
-          method="post"
-          className="php-email-form mt-4"
-        >
+        <form className="php-email-form mt-4">
           <div className="row">
-            <div className="col-md-6 form-group">
+            <div className="col-md-12 form-group mb-3 mt-md-0">
               <input
+                id="name"
                 type="text"
                 name="name"
                 className="form-control"
-                id="name"
                 placeholder="Your Name"
                 onChange={(e) => onHandleChange(e)}
                 required
               />
             </div>
+          </div>
+
+          <div className="row">
+            <div className="col-md-6 form-group">
+              <input
+                id="phone"
+                type="text"
+                name="phone"
+                className="form-control"
+                placeholder="Your Phone Number 000-000-0000"
+                onChange={(e) => onHandleChange(e)}
+                required={false}
+              />
+            </div>
             <div className="col-md-6 form-group mt-3 mt-md-0">
               <input
-                type="email"
-                className="form-control"
-                name="email"
                 id="email"
+                type="email"
+                name="email"
+                className="form-control"
                 placeholder="Your Email"
                 onChange={(e) => onHandleChange(e)}
                 required
@@ -112,10 +139,10 @@ const Contacts = () => {
           </div>
           <div className="form-group mt-3">
             <input
-              type="text"
-              className="form-control"
-              name="subject"
               id="subject"
+              type="text"
+              name="subject"
+              className="form-control"
               placeholder="Subject"
               onChange={(e) => onHandleChange(e)}
               required
@@ -139,7 +166,7 @@ const Contacts = () => {
             </div>
           </div>
           <div className="text-center">
-            <button type="submit" onSubmit={(e) => handleSubmit(e, formData)}>
+            <button onClick={(e) => handleSubmit(e, formData)}>
               Send Message
             </button>
           </div>

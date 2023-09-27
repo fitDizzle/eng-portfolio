@@ -246,13 +246,13 @@ const Resume = () => {
 
 export default Resume;
 
-{
-  /* <a
-                href="https://app.codesignal.com/coding-report/8cjFvNQTc9sZkKRsh-SoShj3WFa2Nh69cmWfH5aHF8/TDEDJogpiyAT42XKC"
-                alt="code-signal-assessment-link"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                View My Code Signal Assessment
-              </a> */
-}
+// {
+//   <a
+//     href="https://app.codesignal.com/coding-report/8cjFvNQTc9sZkKRsh-SoShj3WFa2Nh69cmWfH5aHF8/TDEDJogpiyAT42XKC"
+//     alt="code-signal-assessment-link"
+//     target="_blank"
+//     rel="noopener noreferrer"
+//   >
+//     View My Code Signal Assessment
+//   </a>;
+// }
