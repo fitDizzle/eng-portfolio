@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const serverUrl = 'http://localhost:8080/contact';
+const serverUrl = 'https://eng-portfolio-sendgrid-server-7a7dcebc5029.herokuapp.com/contact';
 
 export const handleContactMessageDelivery = async (data) => {
     return await axios.post(serverUrl, data)
