@@ -10,8 +10,8 @@ const Contacts = () => {
     message: "",
   });
 
-  const [loading, setLoading] = useState(false);
-  const [error, setError] = useState({});
+  const [message, setMessage] = useState({});
+  // const [success, setSuccess] = useState(false);
 
   const formData = {
     email: formState.email,
@@ -27,13 +27,32 @@ const Contacts = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    setLoading(true);
+    const result = await handleContactMessageDelivery(formData);
 
-    await handleContactMessageDelivery(formData);
+    if (result.code === 401) {
+      setMessage({ message: "unable to send message" });
+    } else {
+      setMessage({ message: "Your message has been sent. Thank you!" });
+    }
 
     setTimeout(() => {
-      setLoading(false);
-    }, 1000);
+      setFormState({
+        name: "",
+        phone: "",
+        email: "",
+        subject: "",
+        message: "",
+      });
+      setMessage({});
+    }, 1500);
+  };
+
+  const renderResponseResult = () => {
+    if (message)
+      return <div className="response-error-message">{message.message}</div>;
+    // if (success) {
+    //   return <div className="response-sent-message">{message}</div>;
+    // }
   };
 
   return (
@@ -104,6 +123,7 @@ const Contacts = () => {
                 name="name"
                 className="form-control"
                 placeholder="Your Name"
+                value={formState.name}
                 onChange={(e) => onHandleChange(e)}
                 required
               />
@@ -118,6 +138,7 @@ const Contacts = () => {
                 name="phone"
                 className="form-control"
                 placeholder="Your Phone Number 000-000-0000"
+                value={formState.phone}
                 onChange={(e) => onHandleChange(e)}
                 required={false}
               />
@@ -129,6 +150,7 @@ const Contacts = () => {
                 name="email"
                 className="form-control"
                 placeholder="Your Email"
+                value={formState.email}
                 onChange={(e) => onHandleChange(e)}
                 required
               />
@@ -141,6 +163,7 @@ const Contacts = () => {
               name="subject"
               className="form-control"
               placeholder="Subject"
+              value={formState.subject}
               onChange={(e) => onHandleChange(e)}
               required
             />
@@ -151,19 +174,18 @@ const Contacts = () => {
               name="message"
               rows="5"
               placeholder="Message"
+              value={formState.message}
               onChange={(e) => onHandleChange(e)}
               required
             ></textarea>
           </div>
-          <div className="my-3">
-            <div className="loading">Loading</div>
-            <div className="error-message"></div>
-            <div className="sent-message">
-              Your message has been sent. Thank you!
-            </div>
-          </div>
+          {renderResponseResult()}
           <div className="text-center">
-            <button className="contact" type="submit" onClick={(e) => handleSubmit(e, formData)}>
+            <button
+              className="contact mt-3"
+              type="submit"
+              onClick={(e) => handleSubmit(e, formData)}
+            >
               Send Message
             </button>
           </div>
