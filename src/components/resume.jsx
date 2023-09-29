@@ -147,8 +147,8 @@ const Resume = () => {
                   </li>
                   <li>
                     Worked with engineers across multiple teams to enforce
-                    engineering best practices 01/2023 - 12/2023 and
-                    organizational coding standards.
+                    engineering best practices and organizational coding
+                    standards.
                   </li>
                   <li>
                     Consistently participated in multiple engineering guilds
@@ -193,7 +193,7 @@ const Resume = () => {
               </p>
             </div>
             <div className="resume-item">
-              <h4>Technical Teachers Aide</h4>
+              <h4>Technical Coding Instructor</h4>
               <h5>2020 - 2021</h5>
               <p>
                 <em>Persevere</em>
