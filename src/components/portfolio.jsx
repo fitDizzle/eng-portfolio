@@ -9,7 +9,21 @@ const Portfolio = () => {
           <p>My Work</p>
         </div>
 
-        <div className="row">
+        <div
+          style={{
+            width: "100%",
+            display: "flex",
+            flexDirection: "column",
+            justifyContent: "center",
+            alignItems: "center",
+            paddingTop: "100px",
+            paddingBottom: "200px",
+          }}
+        >
+          <h1>Hang tight!</h1>
+          <h2>This page is currently being updated... </h2>
+        </div>
+        {/* <div className="row">
           <div className="col-lg-12 d-flex justify-content-center">
             <ul id="portfolio-flters">
               <li data-filter="*" className="filter-active">
@@ -23,6 +37,114 @@ const Portfolio = () => {
         </div>
 
         <div className="row portfolio-container">
+          <div className="col-lg-4 col-md-6 portfolio-item filter-py">
+            <div className="portfolio-wrap">
+              <img
+                src="assets/img/gusto-logo.jpeg"
+                className="img-fluid"
+                alt=""
+              />
+              <div className="portfolio-info">
+                <h4>Fintech Engineer</h4>
+                <p>Details</p>
+                <div className="portfolio-links">
+                  <a
+                    href="/"
+                    // href="/project3"
+                    data-gallery="portfolioGallery"
+                    className="portfolio-lightbox"
+                    title="App 3"
+                  >
+                    <i className="bx bx-plus"></i>
+                  </a>
+                  <a
+                    href="https://lexus-messages.herokuapp.com/"
+                    data-gallery="portfolioDetailsGallery"
+                    data-glightbox="type: external"
+                    className="portfolio-details-lightbox"
+                    title="Portfolio Details"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <i className="bx bx-link"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="col-lg-4 col-md-6 portfolio-item filter-py">
+            <div className="portfolio-wrap">
+              <img
+                src="assets/img/persevere-logo.jpeg"
+                className="img-fluid"
+                alt=""
+              />
+              <div className="portfolio-info">
+                <h4>Fintech Engineer</h4>
+                <p>Details</p>
+                <div className="portfolio-links">
+                  <a
+                    href="/"
+                    // href="/project3"
+                    data-gallery="portfolioGallery"
+                    className="portfolio-lightbox"
+                    title="App 3"
+                  >
+                    <i className="bx bx-plus"></i>
+                  </a>
+                  <a
+                    href="https://lexus-messages.herokuapp.com/"
+                    data-gallery="portfolioDetailsGallery"
+                    data-glightbox="type: external"
+                    className="portfolio-details-lightbox"
+                    title="Portfolio Details"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <i className="bx bx-link"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="col-lg-4 col-md-6 portfolio-item filter-py">
+            <div className="portfolio-wrap">
+              <img
+                src="assets/img/banyan-labs-logo.jpeg"
+                className="img-fluid"
+                alt=""
+              />
+              <div className="portfolio-info">
+                <h4>Fintech Engineer</h4>
+                <p>Details</p>
+                <div className="portfolio-links">
+                  <a
+                    href="/"
+                    // href="/project3"
+                    data-gallery="portfolioGallery"
+                    className="portfolio-lightbox"
+                    title="App 3"
+                  >
+                    <i className="bx bx-plus"></i>
+                  </a>
+                  <a
+                    href="https://lexus-messages.herokuapp.com/"
+                    data-gallery="portfolioDetailsGallery"
+                    data-glightbox="type: external"
+                    className="portfolio-details-lightbox"
+                    title="Portfolio Details"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <i className="bx bx-link"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
           <div className="col-lg-4 col-md-6 portfolio-item filter-js">
             <div className="portfolio-wrap">
               <img
@@ -49,7 +171,8 @@ const Portfolio = () => {
                     data-glightbox="type: external"
                     className="portfolio-details-lightbox"
                     title="Portfolio Details"
-                    target="_blank" rel="noopener noreferrer"
+                    target="_blank"
+                    rel="noopener noreferrer"
                   >
                     <i className="bx bx-link"></i>
                   </a>
@@ -84,9 +207,10 @@ const Portfolio = () => {
                     data-glightbox="type: external"
                     className="portfolio-details-lightbox"
                     title="Portfolio Details"
-                    target="_blank" rel="noopener noreferrer"
+                    target="_blank"
+                    rel="noopener noreferrer"
                   >
-                    <i className="bx bx-link" ></i>
+                    <i className="bx bx-link"></i>
                   </a>
                 </div>
               </div>
@@ -119,15 +243,16 @@ const Portfolio = () => {
                     data-glightbox="type: external"
                     className="portfolio-details-lightbox"
                     title="Portfolio Details"
-                    target="_blank" rel="noopener noreferrer"
+                    target="_blank"
+                    rel="noopener noreferrer"
                   >
                     <i className="bx bx-link"></i>
                   </a>
                 </div>
               </div>
             </div>
-          </div>
-
+          </div> */}
+        {/* 
           <div className="col-lg-4 col-md-6 portfolio-item filter-py">
             <div className="portfolio-wrap">
               <img
@@ -154,16 +279,17 @@ const Portfolio = () => {
                     data-glightbox="type: external"
                     className="portfolio-details-lightbox"
                     title="Portfolio Details"
-                    target="_blank" rel="noopener noreferrer"
+                    target="_blank"
+                    rel="noopener noreferrer"
                   >
                     <i className="bx bx-link"></i>
                   </a>
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
 
-          {/* <div className="col-lg-4 col-md-6 portfolio-item filter-card">
+        {/* <div className="col-lg-4 col-md-6 portfolio-item filter-card">
             <div className="portfolio-wrap">
               <img
                 src="assets/img/portfolio/portfolio-4.jpg"
@@ -196,7 +322,7 @@ const Portfolio = () => {
             </div>
           </div> */}
 
-          {/* <div className="col-lg-4 col-md-6 portfolio-item filter-web">
+        {/* <div className="col-lg-4 col-md-6 portfolio-item filter-web">
             <div className="portfolio-wrap">
               <img
                 src="assets/img/portfolio/portfolio-5.jpg"
@@ -261,7 +387,7 @@ const Portfolio = () => {
               </div>
             </div>
           </div> */}
-{/* 
+        {/* 
           <div className="col-lg-4 col-md-6 portfolio-item filter-card">
             <div className="portfolio-wrap">
               <img
@@ -357,10 +483,10 @@ const Portfolio = () => {
                     <i className="bx bx-link"></i>
                   </a>
                 </div> */}
-              {/* </div> */}
-            {/* </div> */}
-          {/* </div> */}
-        </div>
+        {/* </div> */}
+        {/* </div> */}
+        {/* </div> */}
+        {/* </div> */}
       </div>
     </section>
   );
