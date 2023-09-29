@@ -112,7 +112,7 @@ const About = () => {
                 className="purecounter"
               ></span>
               <a
-                href="https://www.linkedin.com/in/mark-clark-software-development/"
+                href="https://www.linkedin.com/in/mark-clark-software-engineer/"
                 target="_blank"
                 rel="noopener noreferrer"
               >

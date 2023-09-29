@@ -82,7 +82,7 @@ const Contacts = () => {
                 </a>
 
                 <a
-                  href="https://www.linkedin.com/in/mark-clark-software-development/"
+                  href="https://www.linkedin.com/in/mark-clark-software-engineer/"
                   className="linkedin"
                 >
                   <i className="bi bi-linkedin"></i>
