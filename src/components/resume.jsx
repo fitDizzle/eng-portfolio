@@ -13,26 +13,33 @@ const Resume = () => {
             <h3 className="resume-title">Summary</h3>
             <div className="resume-item pb-0">
               <h4>Software Engineer</h4>
+              <strong>
+                Experienced Engineer | Collaborative Problem Solver | Team
+                Leader
+              </strong>
               <p>
+                <br />
                 <em>
-                  A software engineer by profession and a creative problem
-                  solver by nature. Also someone who values teamwork and
-                  embraces diversity. With over 4 years of experience in the
-                  world of software, obtained significant problem solving,
-                  critical thinking, team leadership and collaboration skills
-                  through a variety of roles. Acknowledged as a quick learner,
-                  top-performer and highly effective communicator. As a Software
-                  Engineer at Gusto, consistently exceed performance
-                  expectations as an engineer and have received multiple
-                  commendations from my peers.
+                  Dedicated software engineer with a passion for creative
+                  problem-solving, a strong commitment to teamwork, and a
+                  genuine appreciation for diversity. Over 4 years of hands-on
+                  experience in the software industry, cultivating a robust
+                  skill set in problem-solving, critical thinking, team
+                  leadership, and collaboration across various roles. Recognized
+                  for my exceptional ability to adapt and learn quickly,
+                  consistently achieving top performance while maintaining
+                  effective communication with colleagues. As a Software
+                  Engineer at Gusto, I consistently exceeded performance
+                  expectations and received several commendations from my peers.
                 </em>
               </p>
               <p>
                 <em>
-                  Seeking a Software Engineering role within an organization
-                  that values integrity, fosters growth, and offers
-                  opportunities for innovation where I can leverage my expertise
-                  and create impactful solutions.
+                  Now, I am actively seeking a Software Engineering role within
+                  an organization that prioritizes integrity, fosters
+                  professional growth, and encourages innovative thinking. I aim
+                  to leverage my expertise to create impactful solutions and
+                  contribute to the continued success of the company.
                 </em>
               </p>
               <p>
